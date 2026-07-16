@@ -47,7 +47,7 @@ student-marks-prediction-ml/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/student-marks-prediction-ml.git
+https://github.com/Devkr0115/student-marks-prediction-ml.git
 ```
 
 Navigate to the project folder:
