@@ -92,3 +92,19 @@ Example:
 ===== Student Marks Prediction =====
 
 Enter Study Hours: 7
+
+Predicted Marks: 73.43
+```
+
+---
+
+## Machine Learning Workflow
+
+1. Load the dataset
+2. Separate features and target values
+3. Split the dataset into training and testing sets
+4. Train the Linear Regression model
+5. Make predictions
+6. Evaluate model performance using MAE
+7. Visualize the regression line
+
