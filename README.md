@@ -13,11 +13,23 @@ This project predicts a student's marks based on the number of study hours using
 
 ## Features
 
-- Reads dataset from CSV
-- Trains a Linear Regression model
-- Predicts student marks
-- Evaluates model using MAE
-- Displays regression graph
+- Predicts student marks based on study hours
+- Uses Linear Regression algorithm
+- Evaluates model using Mean Absolute Error (MAE)
+- Visualizes regression line using Matplotlib
+- Accepts user input for prediction
+
+## Project Structure
+
+student-marks-prediction-ml/
+│
+├── data/
+│   └── student_scores.csv
+├── model.py
+├── predict.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ## How to Run
 
