@@ -2,7 +2,9 @@
 
 ## Project Description
 
-This project predicts a student's marks based on the number of study hours using the Linear Regression algorithm.
+This project predicts a student's marks based on the number of study hours using the **Linear Regression** algorithm. It demonstrates the basic workflow of Machine Learning, including data preprocessing, model training, prediction, evaluation, and visualization.
+
+---
 
 ## Technologies Used
 
@@ -11,16 +13,22 @@ This project predicts a student's marks based on the number of study hours using
 - Scikit-learn
 - Matplotlib
 
+---
+
 ## Features
 
 - Predicts student marks based on study hours
-- Uses Linear Regression algorithm
-- Evaluates model using Mean Absolute Error (MAE)
-- Visualizes regression line using Matplotlib
-- Accepts user input for prediction
+- Uses the Linear Regression algorithm
+- Splits data into training and testing sets
+- Evaluates the model using Mean Absolute Error (MAE)
+- Visualizes the regression line using Matplotlib
+- Accepts user input to predict marks
+
+---
 
 ## Project Structure
 
+```text
 student-marks-prediction-ml/
 │
 ├── data/
@@ -30,23 +38,57 @@ student-marks-prediction-ml/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
-## How to Run
+---
 
-Install dependencies
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/student-marks-prediction-ml.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd student-marks-prediction-ml
+```
+
+Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Train the model
+---
+
+## How to Run
+
+### Train and Evaluate the Model
 
 ```bash
 python model.py
 ```
 
-Predict marks
+This will:
+
+- Load the dataset
+- Train the Linear Regression model
+- Evaluate the model
+- Display the Mean Absolute Error (MAE)
+- Show the regression graph
+
+### Predict Student Marks
 
 ```bash
 python predict.py
 ```
+
+Example:
+
+```text
+===== Student Marks Prediction =====
+
+Enter Study Hours: 7
